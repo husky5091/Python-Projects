@@ -1,4 +1,4 @@
-# for github
+# for github projects
 from random import randint
 import time
 minim = 1
