@@ -81,6 +81,9 @@ def squareroot():
     try:
         numberA = int(input("Enter the number (x): "))
         print('The square root of x is', math.sqrt(numberA), '( where x is', numberA, ')')
+        calculateagain = input("Would you like to run the script again ? (Y/N): ")
+        if (calculateagain == 'N' or calculateagain == 'n'):
+            quit()
     except Exception as error:
         print(error)
         calculateagain = input("Would you like to run the script again ? (Y/N): ")
