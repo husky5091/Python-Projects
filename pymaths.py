@@ -70,7 +70,7 @@ def main():
         elif(usr_choice == 'px' or usr_choice == 'px)' or usr_choice == 'PX' or usr_choice == 'PX)'):
             pymathsinfo()
     except Exception as error:
-        print('An error has occured:', error)
+        exceptionhandle()
 def addition():
     try:
         numberX = float(input("Defining x as the first number, give x a value: "))
@@ -81,11 +81,7 @@ def addition():
             checkos()
             quit()
     except Exception as error:
-        print('An error has occured:', error)
-        runagain = input("Would you like to run PyMaths again ? (Y/N): ")
-        if (runagain == 'N' or runagain == 'n'):
-            checkos()
-            quit()
+        exceptionhandle()
 def subtraction():
     try:
         numberX = float(input("Defining x as the first number, give x a value: "))
@@ -96,11 +92,7 @@ def subtraction():
             checkos()
             quit()
     except Exception as error:
-        print('An error has occured:', error)
-        runagain = input("Would you like to run PyMaths again ? (Y/N): ")
-        if (runagain == 'N' or runagain == 'n'):
-            checkos()
-            quit()
+        exceptionhandle()
 def multiply():
     try:
         numberX = float(input("Defining x as the first number, give x a value: "))
@@ -111,11 +103,7 @@ def multiply():
             checkos()
             quit()
     except Exception as error:
-        print('An error has occured:', error)
-        runagain = input("Would you like to run PyMaths again ? (Y/N): ")
-        if (runagain == 'N' or runagain == 'n'):
-            checkos()
-            quit()
+        exceptionhandle()
 def division():
     try:
         numberX = float(input("Defining x as the first number, give x a value: "))
@@ -126,11 +114,7 @@ def division():
             checkos()
             quit()
     except Exception as error:
-        print('An error has occured:', error)
-        runagain = input("Would you like to run PyMaths again ? (Y/N): ")
-        if (runagain == 'N' or runagain == 'n'):
-            checkos()
-            quit()
+        exceptionhandle()
 def squareroot():
     try:
         numberX = float(input("Defining x as the number, give x a value: "))
@@ -140,11 +124,7 @@ def squareroot():
             checkos()
             quit()
     except Exception as error:
-        print('An error has occured:', error)
-        runagain = input("Would you like to run PyMaths again ? (Y/N): ")
-        if (runagain == 'N' or runagain == 'n'):
-            checkos()
-            quit()
+        exceptionhandle()
 def modulos():
     try:
         numberX = float(input("Defining x as the first number, give x a value: "))
@@ -155,11 +135,7 @@ def modulos():
             checkos()
             quit()
     except Exception as error:
-        print('An error has occured:', error)
-        runagain = input("Would you like to run PyMaths again ? (Y/N): ")
-        if (runagain == 'N' or runagain == 'n'):
-            checkos()
-            quit()
+        exceptionhandle()
 def pymathsinfo():
     try:
         checkos()
@@ -167,11 +143,7 @@ def pymathsinfo():
         checkos()
         main()
     except Exception as error:
-        print('An error has occured:', error)
-        runagain = input("Would you like to run PyMaths again ? (Y/N): ")
-        if (runagain == 'N' or runagain == 'n'):
-            checkos()
-            quit()
+        exceptionhandle()
 def oddoreven():
     try:
         numberX = float(input("Defining x as the number, give a value to x: "))
@@ -184,11 +156,7 @@ def oddoreven():
             checkos()
             quit()
     except Exception as error:
-        print('An error has occured:', error)
-        runagain = input("Would you like to run PyMaths again ? (Y/N): ")
-        if (runagain == 'N' or runagain == 'n'):
-            checkos()
-            quit()
+        exceptionhandle()
 def positiveornegative():
     try:
         numberX = float(input("Defining x as the number, give a value to x: "))
@@ -203,11 +171,7 @@ def positiveornegative():
             checkos()
             quit()
     except Exception as error:
-        print('An error has occured:', error)
-        runagain = input("Would you like to run PyMaths again ? (Y/N): ")
-        if (runagain == 'N' or runagain == 'n'):
-            checkos()
-            quit()
+        exceptionhandle()
 def generaterandom():
     try:
         numberX = int(input('We will generate a random number that starts from '))
@@ -218,11 +182,7 @@ def generaterandom():
             checkos()
             quit()
     except Exception as error:
-        print('An error has occured:', error)
-        runagain = input("Would you like to run PyMaths again ? (Y/N): ")
-        if (runagain == 'N' or runagain == 'n'):
-            checkos()
-            quit()
+        exceptionhandle()
 def calculatesin():
     try:
         print('What is the angle measure ?')
@@ -236,11 +196,7 @@ def calculatesin():
             checkos()
             quit()
     except Exception as error:
-        print('An error has occured:', error)
-        runagain = input("Would you like to run PyMaths again ? (Y/N): ")
-        if (runagain == 'N' or runagain == 'n'):
-            checkos()
-            quit()
+        exceptionhandle()
 def calculatecos():
     try:
         print('What is the angle measure ?')
@@ -254,11 +210,7 @@ def calculatecos():
             checkos()
             quit()
     except Exception as error:
-        print('An error has occured:', error)
-        runagain = input("Would you like to run PyMaths again ? (Y/N): ")
-        if (runagain == 'N' or runagain == 'n'):
-            checkos()
-            quit()
+        exceptionhandle()
 def calculatetan():
     try:
         print('What is the angle measure ?')
@@ -272,11 +224,7 @@ def calculatetan():
             checkos()
             quit()
     except Exception as error:
-        print('An error has occured:', error)
-        runagain = input("Would you like to run PyMaths again ? (Y/N): ")
-        if (runagain == 'N' or runagain == 'n'):
-            checkos()
-            quit()
+        exceptionhandle()
 def absolutevalue():
     try:
         numberX = float(input('Defining x as the number, give x a value: '))
@@ -286,11 +234,7 @@ def absolutevalue():
             checkos()
             quit()
     except Exception as error:
-        print('An error has occured:', error)
-        runagain = input("Would you like to run PyMaths again ? (Y/N): ")
-        if(runagain == 'N' or runagain == 'n'):
-            checkos()
-            quit()
+        exceptionhandle()
 def powerraise():
     try:
         numberX = float(input('Defining x as the number, give a value to x: '))
@@ -301,11 +245,7 @@ def powerraise():
             checkos()
             quit()
     except Exception as error:
-        print('An error has occured:', error)
-        runagain = input("Would you like to run PyMaths again ? (Y/N): ")
-        if(runagain == 'N' or runagain == 'n'):
-            checkos()
-            quit()
+        exceptionhandle()
 def logg():
     try:
         numberX = float(input('Defining x as the number, give a value to x: '))
@@ -315,11 +255,7 @@ def logg():
             checkos()
             quit()
     except Exception as error:
-        print('An error has occured:', error)
-        runagain = input("Would you like to run PyMaths again ? (Y/N): ")
-        if(runagain == 'N' or runagain == 'n'):
-            checkos()
-            quit()
+        exceptionhandle()
 def logg10():
     try:
         numberX = float(input('Defining x as the number, give a value to x: '))
@@ -329,11 +265,7 @@ def logg10():
             checkos()
             quit()
     except Exception as error:
-        print('An error has occured:', error)
-        runagain = input("Would you like to run PyMaths again ? (Y/N): ")
-        if(runagain == 'N' or runagain == 'n'):
-            checkos()
-            quit()
+        exceptionhandle()
 def logg2():
     try:
         numberX = float(input('Defining x as the number, give a value to x: '))
@@ -343,11 +275,7 @@ def logg2():
             checkos()
             quit()
     except Exception as error:
-        print('An error has occured:', error)
-        runagain = input("Would you like to run PyMaths again ? (Y/N): ")
-        if(runagain == 'N' or runagain == 'n'):
-            checkos()
-            quit()   
+        exceptionhandle()   
 def degreestoradians():
     try:
         degrees23 = float(input('Defining x as the angle, give x a value: '))
@@ -356,11 +284,7 @@ def degreestoradians():
         if(runagain == 'N' or runagain == 'n'):
             quit()
     except Exception as error:
-        print('An error has occured:', error)
-        runagain = input("Would you like to run PyMaths again ? (Y/N): ")
-        if(runagain == 'N' or runagain == 'n'):
-            checkos()
-            quit()
+        exceptionhandle()
 def radianstodegrees():
     try:
         radians23 = float(input('Defining x as the angle , give x a value: '))
@@ -370,11 +294,7 @@ def radianstodegrees():
             checkos()
             quit()
     except Exception as error:
-        print('An error has occured:', error)
-        runagain = input("Would you like to run PyMaths again ? (Y/N): ")
-        if(runagain == 'N' or runagain == 'n'):
-            checkos()
-            quit() 
+        exceptionhandle()
 def ceill():
     try:
         numberX = float(input('Defining x as the number, give a value to x: '))
@@ -384,11 +304,7 @@ def ceill():
             checkos()
             quit()
     except Exception as error:
-        print('An error has occured:', error)
-        runagain = input("Would you like to run PyMaths again ? (Y/N): ")
-        if(runagain == 'N' or runagain == 'n'):
-            checkos()
-            quit()
+        exceptionhandle()
 def primenumber():
     try:
         num = int(input('Defining x as the number, give x a value: '))
@@ -407,16 +323,18 @@ def primenumber():
             checkos()
             quit()
     except Exception as error:
-        print('An error has occured:', error)
-        runagain = input("Would you like to run PyMaths again ? (Y/N): ")
-        if(runagain == 'N' or runagain == 'n'):
-            checkos()
-            quit()
+        exceptionhandle()
 def checkos():
     if (os.name == 'nt'):
         os.system('cls')
     else:
-        os.system('clear')
+        os.system('clear') 
+def exceptionhandle():
+    print('An error has occured:', error)
+    runagain = input("Would you like to run PyMaths again ? (Y/N): ")
+    if(runagain == 'N' or runagain == 'n'):
+        checkos()
+        quit()
 main()
 runagain = 'Y'
 while (runagain == 'Y' or runagain == 'y'):
